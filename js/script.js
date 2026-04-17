@@ -1,4 +1,6 @@
-// Test to see if reference is correct
-// Husk at "kommentér" al "console.log" ud inden aflevering!
+const btnOff = document.querySelector("#btn-off");
+const btnOn = document.querySelector("#btn-on");
 
-console.log("Hello from Script");
+// Obs på at lightbulb er en class
+// Når man skal tilgå en class, så skal man bruge "." før man kalder på den
+const lightbulb = document.querySelector(".fa-lightbulb");
